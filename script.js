@@ -46,4 +46,4 @@ function gameLogic(){
     getPlayerChoice();
 }
 
-gameLogic();
+// gameLogic();

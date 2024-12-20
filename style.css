@@ -1,0 +1,22 @@
+.rps-container {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+button {
+    height: 200px;
+    width: 200px;
+}
+
+#rock {
+    background-color: aquamarine;
+}
+
+#paper {
+    background-color: chocolate;
+}
+
+#scissors {
+    background-color: crimson;
+}
