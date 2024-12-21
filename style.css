@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: antiquewhite;
     
 }
 
@@ -30,9 +31,22 @@ button {
     background-color: crimson;
 }
 
-#score {
+.game-score {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
     padding-top: 30px;
-    font-size: large;
+    font-size: 30px;
     color: red;
+    justify-self: center;
+}
+
+.score {
+    justify-self: center;
+}
+
+.winner {
+    padding-top: 20px;
+    color: green;
     justify-self: center;
 }
